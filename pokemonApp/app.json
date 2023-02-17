@@ -1,6 +1,14 @@
 {
   "expo": {
     "name": "pokemonApp",
+    "plugins": [
+      [
+        "expo-media-library",
+        {
+          "isAccessMediaLocationEnabled": true
+        }
+      ]
+    ],
     "slug": "pokemonApp",
     "version": "1.0.0",
     "orientation": "portrait",
